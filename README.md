@@ -26,7 +26,6 @@ Adding to your library is fully automated through the following steps:
 The project follows a modern JAMstack architecture:
 - **Backend:** Python 3.x (Requests, Regex, JSON).
 - **CI/CD:** GitHub Actions.
-- **Frontend:** HTML5, Tailwind CSS, Lucide Icons.
 - **Data Source:** Google Books API.
 
 
