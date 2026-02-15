@@ -32,7 +32,7 @@
 
         async function loadLibrary() {
             try {
-                const response = await fetch('./library.json');
+                const response = await fetch('library.json');
                 books = await response.json();
                 renderBooks(books);
             } catch (e) {
