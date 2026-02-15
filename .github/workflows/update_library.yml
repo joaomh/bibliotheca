@@ -44,8 +44,7 @@ jobs:
             echo "committed=false" >> $GITHUB_OUTPUT
           fi
 
-  # JOB 2: Deploy to GitHub Pages
-  # This only runs AFTER update-data finishes successfully
+# JOB 2: Deploy to GitHub Pages
   deploy:
     needs: update-data
     runs-on: ubuntu-latest
@@ -53,13 +52,22 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # --- THE DELAY STEP ---
+      - name: Wait for GitHub to sync
+        run: sleep 120
+
       - uses: actions/checkout@v4
+        with:
+          ref: main # Force checkout of the latest commit made by the bot
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs' # Tells GitHub to deploy the docs folder
+          path: './docs'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
