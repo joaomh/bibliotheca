@@ -4,37 +4,24 @@ import re
 import os
 
 def normalize_isbn(isbn_raw):
-    """Removes hyphens, spaces, and non-numeric characters."""
-    return re.sub(r'[^0-9X]', '', isbn_raw.upper())
+    return re.sub(r'[^0-9X]', '', str(isbn_raw).upper())
 
 def get_cutter_number(author_surname):
-    """
-    A more robust algorithmic Cutter approach.
-    Uses the first vowel/consonant transition to generate a 3-digit code.
-    """
     surname = author_surname.upper()
-    # Basic mapping for the first few letters to simulate the Sanborn table
     mapping = {'A': '1', 'E': '2', 'I': '3', 'O': '4', 'U': '5', 'S': '6', 'T': '7'}
-    
-    # Get second char if available, else default
     second_char = surname[1] if len(surname) > 1 else '0'
-    num_part = mapping.get(second_char, '25') # '25' is a common mid-range consonant value
-    
-    # Ensure it looks like a standard 3-digit library code
+    num_part = mapping.get(second_char, '25')
     return num_part.ljust(3, '0')
 
 def fetch_book_data(isbn_raw):
     isbn = normalize_isbn(isbn_raw)
-    print(f"🔍 Fetching: {isbn}")
-    
     url = f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
-        
         if "items" not in data:
-            print(f"❌ No data found for ISBN: {isbn}")
+            print(f"⚠️ ISBN {isbn} not found in Google Books.")
             return None
             
         info = data["items"][0]["volumeInfo"]
@@ -42,7 +29,6 @@ def fetch_book_data(isbn_raw):
         title = info.get("title", "Unknown")
         surname = author.split()[-1]
         
-        # Cutter: Surname Initial + Generated Number + Title lowercase initial
         cutter = f"{surname[0].upper()}{get_cutter_number(surname)}{title[0].lower()}"
         
         return {
@@ -54,30 +40,47 @@ def fetch_book_data(isbn_raw):
             "category": info.get("categories", ["General"])[0]
         }
     except Exception as e:
-        print(f"⚠️ Error fetching {isbn}: {e}")
+        print(f"❌ Error fetching {isbn}: {e}")
         return None
 
 def main():
-    # 1. Read ISBNs from your text file
+    # 1. Load existing library data if it exists
+    library_path = 'docs/library.json'
+    existing_library = []
+    existing_isbns = set()
+
+    if os.path.exists(library_path):
+        with open(library_path, 'r', encoding='utf-8') as f:
+            existing_library = json.load(f)
+            # Create a set of ISBNs we already have for O(1) lookup
+            existing_isbns = {normalize_isbn(book['isbn']) for book in existing_library}
+
+    # 2. Read ISBNs from books.txt
     if not os.path.exists('data/books.txt'):
-        print("Create 'data/books.txt' first!")
+        print("data/books.txt not found.")
         return
 
     with open('data/books.txt', 'r') as f:
-        isbns = [line.strip() for line in f if line.strip()]
+        # Get only the ISBNs that aren't already in our library.json
+        new_isbns = [line.strip() for line in f if line.strip() and normalize_isbn(line.strip()) not in existing_isbns]
 
-    # 2. Process and collect data
-    library = []
-    for isbn in isbns:
+    if not new_isbns:
+        print("✨ No new ISBNs to add.")
+        return
+
+    # 3. Fetch only the NEW books and append them
+    for isbn in new_isbns:
         book = fetch_book_data(isbn)
         if book:
-            library.append(book)
+            existing_library.append(book)
+            print(f"📖 Added: {book['title']}")
 
-    # 3. Save to the docs folder for GitHub Pages
+    # 4. Save the merged list back to docs/
     os.makedirs('docs', exist_ok=True)
-    with open('docs/library.json', 'w') as f:
-        json.dump(library, f, indent=4)
-    print(f"✅ Successfully updated library.json with {len(library)} books.")
+    with open(library_path, 'w', encoding='utf-8') as f:
+        json.dump(existing_library, f, indent=4, ensure_ascii=False)
+    
+    print(f"✅ Library updated. Total books: {len(existing_library)}")
 
 if __name__ == "__main__":
     main()
