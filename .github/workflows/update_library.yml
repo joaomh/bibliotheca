@@ -1,27 +1,65 @@
-name: Update Bibliotheca
+name: Update and Deploy Bibliotheca
 on:
   push:
     paths:
       - 'data/books.txt'
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  build:
+  # JOB 1: Process the new ISBNs
+  update-data:
     runs-on: ubuntu-latest
+    outputs:
+      committed: ${{ steps.check_changes.outputs.committed }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
+          
       - name: Install dependencies
         run: pip install requests
+
       - name: Run Generator
         run: python scripts/generator.py
+
       - name: Commit and Push changes
+        id: check_changes
         run: |
           git config --global user.name "Bibliotheca Bot"
           git config --global user.email "bot@bibliotheca.local"
-          # This line is the magic fix: it tells git to track the new file
           git add docs/library.json
-          # Now we commit
-          git commit -m "Update library data [skip ci]" || echo "No changes to commit"
-          git push
+          if git commit -m "Update library data [skip ci]"; then
+            git push
+            echo "committed=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
+          fi
+
+  # JOB 2: Deploy to GitHub Pages
+  # This only runs AFTER update-data finishes successfully
+  deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs' # Tells GitHub to deploy the docs folder
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
