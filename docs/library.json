@@ -62,5 +62,13 @@
         "cutter": "N300q",
         "thumbnail": "https://books.google.com/books/content?id=j2ULnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         "category": "Science"
+    },
+    {
+        "isbn": "9780262514620",
+        "title": "Vision",
+        "author": "David Marr",
+        "cutter": "M100v",
+        "thumbnail": "https://books.google.com/books/content?id=Wr34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Psychology"
     }
 ]
