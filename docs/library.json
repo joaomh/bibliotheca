@@ -78,5 +78,13 @@
         "cutter": "G400d",
         "thumbnail": "https://books.google.com/books/content?id=XmZvtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         "category": "Image processing"
+    },
+    {
+        "isbn": "9780465024148",
+        "title": "The Feynman Lectures on Physics: Mainly mechanics, radiation, and heat",
+        "author": "Richard Phillips Feynman",
+        "cutter": "F200t",
+        "thumbnail": "",
+        "category": "Electromagnetism"
     }
 ]
