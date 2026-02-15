@@ -6,5 +6,13 @@
         "cutter": "B300p",
         "thumbnail": "https://books.google.com/books/content?id=qWPwnQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         "category": "Computers"
+    },
+    {
+        "isbn": "9781107189638",
+        "title": "Introduction to Quantum Mechanics",
+        "author": "David J. Griffiths",
+        "cutter": "G250i",
+        "thumbnail": "https://books.google.com/books/content?id=82FjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Science"
     }
 ]
