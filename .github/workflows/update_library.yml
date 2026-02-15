@@ -19,5 +19,9 @@ jobs:
       - name: Commit and Push changes
         run: |
           git config --global user.name "Bibliotheca Bot"
-          git commit -am "Update library data" || exit 0
+          git config --global user.email "bot@bibliotheca.local"
+          # This line is the magic fix: it tells git to track the new file
+          git add docs/library.json
+          # Now we commit
+          git commit -m "Update library data [skip ci]" || echo "No changes to commit"
           git push
