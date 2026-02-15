@@ -70,5 +70,13 @@
         "cutter": "M100v",
         "thumbnail": "https://books.google.com/books/content?id=Wr34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "category": "Psychology"
+    },
+    {
+        "isbn": "9781292223049",
+        "title": "Digital Image Processing, Global Edition",
+        "author": "Rafael C. Gonzalez",
+        "cutter": "G400d",
+        "thumbnail": "https://books.google.com/books/content?id=XmZvtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Image processing"
     }
 ]
