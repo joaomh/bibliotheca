@@ -14,5 +14,61 @@
         "cutter": "G250i",
         "thumbnail": "https://books.google.com/books/content?id=82FjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "category": "Science"
+    },
+    {
+        "isbn": "9783031454677",
+        "title": "Deep Learning",
+        "author": "Christopher M. Bishop",
+        "cutter": "B300d",
+        "thumbnail": "https://books.google.com/books/content?id=jyUl0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Computers"
+    },
+    {
+        "isbn": "9780262510875",
+        "title": "Structure and Interpretation of Computer Programs, second edition",
+        "author": "Harold Abelson",
+        "cutter": "A250s",
+        "thumbnail": "https://books.google.com/books/content?id=iL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Computers"
+    },
+    {
+        "isbn": "9783030343712",
+        "title": "Computer Vision",
+        "author": "Richard Szeliski",
+        "cutter": "S250c",
+        "thumbnail": "https://books.google.com/books/content?id=A34ZygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Computers"
+    },
+    {
+        "isbn": "9780465023820",
+        "title": "The Feynman Lectures on Physics, boxed set",
+        "author": "Richard P. Feynman",
+        "cutter": "F200t",
+        "thumbnail": "https://books.google.com/books/content?id=ECdIAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Science"
+    },
+    {
+        "isbn": "9780367857332",
+        "title": "Feynman Lectures on Computation",
+        "author": "Tony Hey",
+        "cutter": "H200f",
+        "thumbnail": "https://books.google.com/books/content?id=4J5szwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Science"
+    },
+    {
+        "isbn": "9780194776189",
+        "title": "American English File Second Edition: Level 4 Student Book",
+        "author": "Christina Latham-Koenig",
+        "cutter": "L100a",
+        "thumbnail": "https://books.google.com/books/content?id=Wd4VogEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "English language"
+    },
+    {
+        "isbn": "9781107002173",
+        "title": "Quantum Computation and Quantum Information",
+        "author": "Michael A. Nielsen",
+        "cutter": "N300q",
+        "thumbnail": "https://books.google.com/books/content?id=j2ULnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Science"
     }
 ]
