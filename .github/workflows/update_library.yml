@@ -1,0 +1,23 @@
+name: Update Bibliotheca
+on:
+  push:
+    paths:
+      - 'data/books.txt'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Generator
+        run: python scripts/generator.py
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Bibliotheca Bot"
+          git commit -am "Update library data" || exit 0
+          git push
