@@ -78,5 +78,333 @@
         "cutter": "G400d",
         "thumbnail": "https://books.google.com/books/content?id=XmZvtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         "category": "Image processing"
+    },
+    {
+        "isbn": "9788531407482",
+        "title": "Mecânica Quântica Vol. 51",
+        "author": "Antonio Fernando Ribeiro De Toledo Piza",
+        "cutter": "P300m",
+        "thumbnail": "https://books.google.com/books/content?id=BARqfZ3Wem8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531409561",
+        "title": "Introdução à Mecânica Clássica",
+        "author": "Artur O. Lopes",
+        "cutter": "L400i",
+        "thumbnail": "https://books.google.com/books/content?id=ndgbp7eR0CMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Mechanics"
+    },
+    {
+        "isbn": "9788531406737",
+        "title": "Principia: princípios matemáticos de filosofia natural livro1",
+        "author": "Isaac Newton",
+        "cutter": "N200p",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531410895",
+        "title": "Principia: Livro III: O sistema do mundo (tratado matematicamente); o sistema do mundo",
+        "author": "Sir Isaac Newton",
+        "cutter": "N200p",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788521207450",
+        "title": "Curso de física básica, 1",
+        "author": "Herch Moysés Nussenzveig",
+        "cutter": "N500c",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531403699",
+        "title": "Mecânica Clássica Moderna Vol. 08",
+        "author": "Walter F. Wreszinski",
+        "cutter": "W250m",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531405945",
+        "title": "Curso de Álgebra Linear, Um Vol. 34",
+        "author": "Flávio Ulhoa Coelho",
+        "cutter": "C400c",
+        "thumbnail": "https://books.google.com/books/content?id=aiLoWF-9AaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531404580",
+        "title": "Números",
+        "author": "Francisco César Polcino Milies",
+        "cutter": "M300n",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788571399358",
+        "title": "Os elementos",
+        "author": "Euclides",
+        "cutter": "E500o",
+        "thumbnail": "https://books.google.com/books/content?id=um94A66MDxkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Mathematics"
+    },
+    {
+        "isbn": "9788531403866",
+        "title": "Introdução a Física Estatística Vol. 09",
+        "author": "Silvio R. A. Salinas",
+        "cutter": "S100i",
+        "thumbnail": "https://books.google.com/books/content?id=cAlP3sc0K44C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9780262039253",
+        "title": "Quantum Computing for Everyone",
+        "author": "Chris Bernhardt",
+        "cutter": "B200q",
+        "thumbnail": "https://books.google.com/books/content?id=SROKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Computers"
+    },
+    {
+        "isbn": "9781292401133",
+        "title": "ARTIFICIAL INTELLIGENCE",
+        "author": "PETER. RUSSELL NORVIG (STUART.)",
+        "cutter": "(600a",
+        "thumbnail": "https://books.google.com/books/content?id=B4xczgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788585910020",
+        "title": "O valor da ciência",
+        "author": "Henri Poincaré",
+        "cutter": "P400o",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788535908343",
+        "title": "O mundo assombrado pelos demônios",
+        "author": "Carl Sagan",
+        "cutter": "S100o",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788411540391",
+        "title": "El curioso mundo de los símbolos científicos",
+        "author": "Katie Steckles",
+        "cutter": "S700e",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9786555111330",
+        "title": "Super-heróis da ciência",
+        "author": "Ana Cláudia Munhoz Bonassa",
+        "cutter": "B400s",
+        "thumbnail": "",
+        "category": "Discoveries in science"
+    },
+    {
+        "isbn": "9788531405754",
+        "title": "Etica em computação",
+        "author": "Paulo Cesar Masiero",
+        "cutter": "M100e",
+        "thumbnail": "",
+        "category": "Electronic data processing"
+    },
+    {
+        "isbn": "9788578611804",
+        "title": "Kepler, O Legislador Dos Céus",
+        "author": "Contador Paulo",
+        "cutter": "P100k",
+        "thumbnail": "https://books.google.com/books/content?id=UMQ90AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Science"
+    },
+    {
+        "isbn": "9788580576467",
+        "title": "Uma breve história do tempo",
+        "author": "Unknown",
+        "cutter": "U250u",
+        "thumbnail": "",
+        "category": "Cosmology"
+    },
+    {
+        "isbn": "9788580578898",
+        "title": "O universo numa casca de noz",
+        "author": "Stephen Hawking",
+        "cutter": "H100o",
+        "thumbnail": "https://books.google.com/books/content?id=NXxVCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Science"
+    },
+    {
+        "isbn": "9788537809594",
+        "title": "Subliminar",
+        "author": "LEONARD MLODINOW",
+        "cutter": "M250s",
+        "thumbnail": "",
+        "category": "Science"
+    },
+    {
+        "isbn": "9788537801550",
+        "title": "O andar do bêbado",
+        "author": "Leonard Mlodinow",
+        "cutter": "M250o",
+        "thumbnail": "",
+        "category": "Chance"
+    },
+    {
+        "isbn": "9788531410727",
+        "title": "Poeta:Um,um Matemático e um Físico:Três Ensaios Biográficos por Henri Poincaré",
+        "author": "Jorge Sotomayor",
+        "cutter": "S400p",
+        "thumbnail": "https://books.google.com/books/content?id=tSzkTuq8Dg4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788537810415",
+        "title": "Dezessete equações que mudaram o mundo",
+        "author": "IAN STEWART",
+        "cutter": "S700d",
+        "thumbnail": "",
+        "category": "Mathematics"
+    },
+    {
+        "isbn": "9789588931623",
+        "title": "Homo deus",
+        "author": "Yuval Noah Harari",
+        "cutter": "H100h",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788525432186",
+        "title": "SAPIENS - UMA BREVE HISTORIA DA HUMANIDADE",
+        "author": "YUVAL NOAH HARARI",
+        "cutter": "H100s",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788551002575",
+        "title": "Leonardo Da Vinci",
+        "author": "Walter Isaacson",
+        "cutter": "I600l",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576842125",
+        "title": "A lógica do cisne negro",
+        "author": "Nassim Taleb",
+        "cutter": "T100a",
+        "thumbnail": "",
+        "category": "Forecasting"
+    },
+    {
+        "isbn": "9788525056009",
+        "title": "Admirável mundo novo",
+        "author": "Aldous Huxley",
+        "cutter": "H500a",
+        "thumbnail": "https://books.google.com/books/content?id=6TmhzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Fiction"
+    },
+    {
+        "isbn": "9788532520661",
+        "title": "O conto da aia",
+        "author": "Margaret Atwood",
+        "cutter": "A700o",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788532531568",
+        "title": "Os testamentos",
+        "author": "Margaret Atwood",
+        "cutter": "A700o",
+        "thumbnail": "",
+        "category": "Canadian fiction"
+    },
+    {
+        "isbn": "9788576573937",
+        "title": "Flores Para Algernon",
+        "author": "Daniel Keyes",
+        "cutter": "K200f",
+        "thumbnail": "",
+        "category": "Family & Relationships"
+    },
+    {
+        "isbn": "9786558380542",
+        "title": "A biblioteca da meia-noite",
+        "author": "Matt Haig",
+        "cutter": "H100a",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788530601492",
+        "title": "O guia definitivo do mochileiro das galáxias",
+        "author": "Douglas Adams",
+        "cutter": "A250o",
+        "thumbnail": "",
+        "category": "Fiction"
+    },
+    {
+        "isbn": "9786558881483",
+        "title": "Crime E Castigo",
+        "author": "Fiódor Dostoièvski",
+        "cutter": "D400c",
+        "thumbnail": "https://books.google.com/books/content?id=6BDU0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788573263350",
+        "title": "Noites brancas",
+        "author": "Dostoiévski, Fiódor",
+        "cutter": "F300n",
+        "thumbnail": "https://books.google.com/books/content?id=dzBmmfiRm64C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788573261851",
+        "title": "Memórias do subsolo",
+        "author": "Unknown",
+        "cutter": "U250m",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9786555522068",
+        "title": "Hamlet",
+        "author": "William Shakespeare",
+        "cutter": "S250h",
+        "thumbnail": "https://books.google.com/books/content?id=1VTU0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Drama"
+    },
+    {
+        "isbn": "9788525052247",
+        "title": "Farenheit 451",
+        "author": "RAY BRADBURY",
+        "cutter": "B250f",
+        "thumbnail": "https://books.google.com/books/content?id=VKm1RC2LzJsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "category": "Fiction"
+    },
+    {
+        "isbn": "9788544102923",
+        "title": "A guerra dos tronos",
+        "author": "George R. R. Martin",
+        "cutter": "M100a",
+        "thumbnail": "",
+        "category": "Courts and courtiers"
+    },
+    {
+        "isbn": "9788576571551",
+        "title": "2001",
+        "author": "Unknown",
+        "cutter": "U2502",
+        "thumbnail": "",
+        "category": "General"
     }
 ]
