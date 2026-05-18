@@ -56,7 +56,7 @@ jobs:
     steps:
       # --- THE DELAY STEP ---
       - name: Wait for GitHub to sync
-        run: sleep 120
+        run: sleep 30
 
       - uses: actions/checkout@v4
         with:
