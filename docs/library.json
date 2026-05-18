@@ -406,5 +406,189 @@
         "cutter": "U2502",
         "thumbnail": "",
         "category": "General"
+    },
+    {
+        "isbn": "9788521208013",
+        "title": "Curso de Fisica Basica",
+        "author": "Herch Moysés Nussenzveig",
+        "cutter": "N500c",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788521635451",
+        "title": "Um Curso de Calculo - Volume 3",
+        "author": "Hamilton Luiz Guidorizzi",
+        "cutter": "G500u",
+        "thumbnail": "https://covers.openlibrary.org/b/id/14100368-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788521635437",
+        "title": "Um Curso de Cálculo - Volume 1",
+        "author": "Hamilton Luiz Guidorizzi",
+        "cutter": "G500u",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9780137935109",
+        "title": "Art of Computer Programming, Volumes 1-4B, Boxed Set",
+        "author": "Donald Knuth",
+        "cutter": "K250a",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15169432-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788525432759",
+        "title": "Teoria da Relatividade: Sobre a Teoria da Relatividade Especial e Geral",
+        "author": "Albert Einstein",
+        "cutter": "E300t",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15158470-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788535913514",
+        "title": "Contato",
+        "author": "Carl Sagan",
+        "cutter": "S100c",
+        "thumbnail": "https://covers.openlibrary.org/b/id/8541460-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788537811818",
+        "title": "Em Busca do Infinito",
+        "author": "Ian Stewart",
+        "cutter": "S700e",
+        "thumbnail": "https://covers.openlibrary.org/b/id/12390523-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788575428092",
+        "title": "As armas da persuasão",
+        "author": "Robert B. Cialdini",
+        "cutter": "C300a",
+        "thumbnail": "https://covers.openlibrary.org/b/id/14653926-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576846130",
+        "title": "Antifragil",
+        "author": "Jonathan C. Young",
+        "cutter": "Y400a",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15152971-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576570974",
+        "title": "Proprios Deuses (Em Portugues do Brasil)",
+        "author": "Isaac Asimov",
+        "cutter": "A600p",
+        "thumbnail": "https://covers.openlibrary.org/b/id/8736934-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576573210",
+        "title": "Pedra no Céu",
+        "author": "Isaac Asimov",
+        "cutter": "A600p",
+        "thumbnail": "https://covers.openlibrary.org/b/id/10376627-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576572008",
+        "title": "Eu, Robô",
+        "author": "Isaac Asimov",
+        "cutter": "A600e",
+        "thumbnail": "https://covers.openlibrary.org/b/id/8458608-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576574224",
+        "title": "O Fim da Eternidade",
+        "author": "Isaac Asimov",
+        "cutter": "A600o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15131552-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9786586064438",
+        "title": "Os próprios deuses",
+        "author": "Isaac Asimov",
+        "cutter": "A600o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15138118-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576571971",
+        "title": "Trilogia Fundação",
+        "author": "Isaac Asimov",
+        "cutter": "A600t",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15175897-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576575924",
+        "title": "O cair da noite",
+        "author": "Isaac Asimov",
+        "cutter": "A600o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15109341-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788573266467",
+        "title": "Crime e Castigo",
+        "author": "Фёдор Михайлович Достоевский",
+        "cutter": "Д250c",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788520936849",
+        "title": "Odisseia e Ilíada - Caixa",
+        "author": "Homero",
+        "cutter": "H400o",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576574576",
+        "title": "O Fim da Infância",
+        "author": "Arthur C. Clarke",
+        "cutter": "C250o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15131549-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788556510761",
+        "title": "Fogo & Sangue",
+        "author": "George R. R. Martin",
+        "cutter": "M100f",
+        "thumbnail": "https://covers.openlibrary.org/b/id/10328380-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576574460",
+        "title": "Laranja Mecanica",
+        "author": "Anthony Burgess",
+        "cutter": "B500l",
+        "thumbnail": "https://covers.openlibrary.org/b/id/12393419-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576571827",
+        "title": "As fontes do paraíso",
+        "author": "Arthur C. Clarke",
+        "cutter": "C250a",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15138124-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576570813",
+        "title": "O Fim da Infancia",
+        "author": "Arthur C. Clarke",
+        "cutter": "C250o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/8709244-M.jpg",
+        "category": "General"
     }
 ]
