@@ -590,5 +590,69 @@
         "cutter": "C250o",
         "thumbnail": "https://covers.openlibrary.org/b/id/8709244-M.jpg",
         "category": "General"
+    },
+    {
+        "isbn": "9788577534098",
+        "title": "Pedagogia da autonomia",
+        "author": "Paulo Freire",
+        "cutter": "F250p",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788542227536",
+        "title": "Nada mais será como antes",
+        "author": "Miguel Nicolelis",
+        "cutter": "N300n",
+        "thumbnail": "",
+        "category": "Fiction"
+    },
+    {
+        "isbn": "9788544001516",
+        "title": "O Conde de Monte-Cristo",
+        "author": "Alexandre Dumas",
+        "cutter": "D500o",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15156205-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788577534180",
+        "title": "Pedagogia do oprimido",
+        "author": "Paulo Freire",
+        "cutter": "F250p",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788544106228",
+        "title": "RRetrospectiva da Obra - Edição Limitada Exclusiva e Numerada à Mão + Mochila",
+        "author": "George R. R. Martin",
+        "cutter": "M100r",
+        "thumbnail": "https://covers.openlibrary.org/b/id/12597952-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576573135",
+        "title": "Duna",
+        "author": "Frank Herbert",
+        "cutter": "H200d",
+        "thumbnail": "",
+        "category": "Dune (Imaginary place)"
+    },
+    {
+        "isbn": "9788576573142",
+        "title": "Filhos de Duna",
+        "author": "Frank Herbert",
+        "cutter": "H200f",
+        "thumbnail": "https://covers.openlibrary.org/b/id/8785347-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9788576573821",
+        "title": "Messias de Duna",
+        "author": "Frank Herbert",
+        "cutter": "H200m",
+        "thumbnail": "https://covers.openlibrary.org/b/id/10376632-M.jpg",
+        "category": "General"
     }
 ]
