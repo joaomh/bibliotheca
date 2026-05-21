@@ -1,7 +1,9 @@
 # 📚 Bibliotheca
 
 An automated personal library inventory system featuring **Cutter-Sanborn** classification and automated metadata enrichment.
-[gif](https://github.com/joaomh/bibliotheca/blob/main/bib.gif?raw=true)
+
+![gif](https://github.com/joaomh/bibliotheca/blob/main/bib.gif?raw=true)
+
 ## 🛠️ Project Overview
 This repository serves as a cataloging engine that automates the organization of a physical book collection. By simply adding an ISBN to a list, the system fetches bibliographic data and generates a searchable, theme-grouped dashboard.
 
