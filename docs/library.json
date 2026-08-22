@@ -662,5 +662,13 @@
         "cutter": "C2502",
         "thumbnail": "https://covers.openlibrary.org/b/id/10213597-M.jpg",
         "category": "General"
+    },
+    {
+        "isbn": "9788531400148",
+        "title": "Física 1: Mecânica Vol. 1",
+        "author": "Grupo de Reelaboração do Ensino de Física",
+        "cutter": "F250f",
+        "thumbnail": "https://books.google.com/books/content?id=O75bMA7KxeAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
     }
 ]
