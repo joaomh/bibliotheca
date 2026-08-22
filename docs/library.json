@@ -654,5 +654,13 @@
         "cutter": "H200m",
         "thumbnail": "https://covers.openlibrary.org/b/id/10376632-M.jpg",
         "category": "General"
+    },
+    {
+        "isbn": "9786586064063",
+        "title": "2001",
+        "author": "Arthur C. Clarke",
+        "cutter": "C2502",
+        "thumbnail": "https://covers.openlibrary.org/b/id/10213597-M.jpg",
+        "category": "General"
     }
 ]
