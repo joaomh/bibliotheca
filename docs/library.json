@@ -462,5 +462,37 @@
         "cutter": "L400h",
         "thumbnail": "",
         "category": "General"
+    },
+    {
+        "isbn": "9788542804546",
+        "title": "Guerra Civil",
+        "author": "Stuart Moore",
+        "cutter": "M400g",
+        "thumbnail": "https://books.google.com/books/content?id=F85JBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "Fiction"
+    },
+    {
+        "isbn": "9788531400254",
+        "title": "Física 2: Física Térmica e Óptica Vol. 2",
+        "author": "Grupo de Reelaboração do Ensino de Física",
+        "cutter": "F250f",
+        "thumbnail": "https://books.google.com/books/content?id=F_QOHBFqfgsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531401152",
+        "title": "Física 3: Eletromagnetismo Vol. 3",
+        "author": "Unknown",
+        "cutter": "U250f",
+        "thumbnail": "https://books.google.com/books/content?id=g8-sK8f9DNcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "9788531403408",
+        "title": "Óptica",
+        "author": "Unknown",
+        "cutter": "U250ó",
+        "thumbnail": "https://books.google.com/books/content?id=K2UhdYqwVQsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
     }
 ]
