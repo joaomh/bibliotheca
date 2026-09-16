@@ -494,5 +494,13 @@
         "cutter": "U250ó",
         "thumbnail": "https://books.google.com/books/content?id=K2UhdYqwVQsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "category": "General"
+    },
+    {
+        "isbn": "9788542629286",
+        "title": "Demon slayer",
+        "author": "Koyoharu Gotōge",
+        "cutter": "G400d",
+        "thumbnail": "",
+        "category": "Demonology"
     }
 ]
