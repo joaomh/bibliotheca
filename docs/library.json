@@ -662,5 +662,29 @@
         "cutter": "F250f",
         "thumbnail": "https://books.google.com/books/content?id=O75bMA7KxeAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "category": "General"
+    },
+    {
+        "isbn": "9786558380542",
+        "title": "A biblioteca da meia-noite",
+        "author": "Matt Haig",
+        "cutter": "H100a",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9786555350289",
+        "title": "O verdadeiro criador de tudo",
+        "author": "Miguel A. L. Nicolelis",
+        "cutter": "N300o",
+        "thumbnail": "",
+        "category": "Brain"
+    },
+    {
+        "isbn": "9788573262711",
+        "title": "Duas narrativas fantásticas",
+        "author": "Fyodor Dostoyevsky",
+        "cutter": "D400d",
+        "thumbnail": "https://books.google.com/books/content?id=V6Z44TeO4XQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
     }
 ]
