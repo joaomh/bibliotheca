@@ -422,5 +422,45 @@
         "cutter": "D400d",
         "thumbnail": "https://books.google.com/books/content?id=V6Z44TeO4XQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "category": "General"
+    },
+    {
+        "isbn": "9788573263596",
+        "title": "morte de Ivan Ilitch, A",
+        "author": "Unknown",
+        "cutter": "U250m",
+        "thumbnail": "https://books.google.com/books/content?id=3lx8ykoeiGgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "category": "General"
+    },
+    {
+        "isbn": "8526010476",
+        "title": "O gênio do crime",
+        "author": "João Carlos Marinho",
+        "cutter": "M100o",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788595086081",
+        "title": "O Hobbit",
+        "author": "John Ronald Reuel Tolkien",
+        "cutter": "T400o",
+        "thumbnail": "",
+        "category": "Dwarfs (Folklore)"
+    },
+    {
+        "isbn": "9788594540782",
+        "title": "H. P. Lovecraft: Medo Classico Volume 1",
+        "author": "Howard Phillips Lovecraft",
+        "cutter": "L400h",
+        "thumbnail": "",
+        "category": "General"
+    },
+    {
+        "isbn": "9788594540799",
+        "title": "H. P. Lovecraft: Medo Classico Volume 1",
+        "author": "Howard Phillips Lovecraft",
+        "cutter": "L400h",
+        "thumbnail": "",
+        "category": "General"
     }
 ]
