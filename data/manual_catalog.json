@@ -1,8 +1,8 @@
-    {
-        "isbn": "9788542629286",
-        "title": " Demon Slayer - Kimetsu no Yaiba Vol. 1 ",
-        "author": "Koyoharu Gotouge",
-        "cutter": "",
-        "thumbnail": "https://github.com/joaomh/bibliotheca/blob/main/img/978-8542629286.jpg?raw=true",
-        "category": ""
-    }
+{
+    "isbn": "9788542629286",
+    "title": "Demon Slayer - Kimetsu no Yaiba Vol. 1",
+    "author": "Koyoharu Gotouge",
+    "cutter": "G400d",
+    "thumbnail": "https://github.com/joaomh/bibliotheca/blob/main/img/978-8542629286.jpg?raw=true",
+    "category": "Manga"
+}
