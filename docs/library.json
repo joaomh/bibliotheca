@@ -518,5 +518,29 @@
         "cutter": "T400d",
         "thumbnail": "https://books.google.com/books/content?id=Pg3U0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         "category": "Young Adult Nonfiction"
+    },
+    {
+        "isbn": "9786555120271",
+        "title": "Demon slayer - kimetsu no yaiba vol. 3",
+        "author": "Koyoharu Gotoge",
+        "cutter": "G400d",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15173124-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9786555120301",
+        "title": "Demon slayer - kimetsu no yaiba vol. 4",
+        "author": "Koyoharu Gotoge",
+        "cutter": "G400d",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15173126-M.jpg",
+        "category": "General"
+    },
+    {
+        "isbn": "9786555122770",
+        "title": "Demon Slayer - Kimetsu No Yaiba Vol. 7",
+        "author": "Koyoharu Gotoge",
+        "cutter": "G400d",
+        "thumbnail": "https://covers.openlibrary.org/b/id/15219418-M.jpg",
+        "category": "General"
     }
 ]
